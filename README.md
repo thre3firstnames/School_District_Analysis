@@ -11,18 +11,20 @@ After making edits to the Thomas High School (THS) data, I observed the followin
 ![edited_DistrictDF.png](/Resources/edited_DistrictDF.png)
 - Except for the **Average Reading Score**, all other averages and percentages showed a decrease in the updated summary statistics. 
 
-### Effects of changing the THS Data within the School Summary
+### School Summary
 ######  *Original Analysis*
 ![original_SchoolDF.png](/Resources/original_SchoolDF.png)
 ######  *Edited Analysis*
 ![edited_SchoolDF.png](/Resources/edited_SchoolDF.png)
-- Most of THS’s averages and percentages also decreased with the alteration of the 9th grader’s scores except **Average Reading Score**, which increased by .05% after the change. 
 - Broadly, the editing of the scores affected only minor changes on the averages and percentages for THS. Had the scores in the school summary been rounded to the nearest whole number, there would have been no marked change in our results. 
-- Interestingly, the change did not affect THS’s ranking in the top 5 schools *(illustrated in the below comparison*).
+
+### Effects of changing the THS Data
 ######  *Original Analysis*
 ![original_Top5DF3.png](/Resources/original_Top5DF3.png)
 ######  *Edited Analysis*
 ![edited_Top5DF3.png](/Resources/edited_Top5DF3.png)
+- Most of THS’s averages and percentages also decreased with the alteration of the 9th grader’s scores except **Average Reading Score**, which increased by .05% after the change. 
+- Interestingly, the change did not affect THS’s ranking in the top 5 schools.
 
 ### Replacement of 9th Grade Test Scores 
 - The editing of the 9th-grade test data affected the math & reading scores by grade by giving a null value for the 9th graders at THS. Their scores were not considered in the overall statistical calculations.
